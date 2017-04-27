@@ -1,0 +1,322 @@
+﻿Log file open, 04/26/17 20:49:01
+LogInit:Display: Running engine for game: ChildrenOfTheStars2D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1757854044) SRandInit(1757854044).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.187878
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Student Data/Unreal/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.27-01.49.02:808][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-01.49.02:808][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.27-01.49.02:827][  0]LogInit: Computer: C-5820B176A590
+[2017.04.27-01.49.02:827][  0]LogInit: User: Student
+[2017.04.27-01.49.02:827][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.27-01.49.02:827][  0]LogInit: High frequency timer resolution =2.143476 MHz
+[2017.04.27-01.49.02:827][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.27-01.49.02:827][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.27-01.49.02:827][  0]LogMemory: Process Physical Memory: 262.61 MB used, 262.61 MB peak
+[2017.04.27-01.49.02:827][  0]LogMemory: Process Virtual Memory: 262.32 MB used, 262.32 MB peak
+[2017.04.27-01.49.02:827][  0]LogMemory: Physical Memory: 4527.14 MB used,  3539.97 MB free, 8067.11 MB total
+[2017.04.27-01.49.02:827][  0]LogMemory: Virtual Memory: 628.54 MB used,  3539.97 MB free, 134217728.00 MB total
+[2017.04.27-01.49.03:016][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.27-01.49.04:474][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.27-01.49.05:092][  0]LogD3D11RHI:    0. 'AMD Radeon R7 M260X' (Feature Level 11_0)
+[2017.04.27-01.49.05:092][  0]LogD3D11RHI:       1003/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.27-01.49.05:111][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.04.27-01.49.05:111][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.27-01.49.05:116][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.27-01.49.05:116][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.27-01.49.05:116][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.27-01.49.05:123][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.27-01.49.05:123][  0]LogD3D11RHI:     GPU DeviceId: 0x6605 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.27-01.49.05:123][  0]LogWindows: EnumDisplayDevices:
+[2017.04.27-01.49.05:124][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.04.27-01.49.05:126][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.04.27-01.49.05:127][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.04.27-01.49.05:128][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.27-01.49.05:128][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M260X
+[2017.04.27-01.49.05:128][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.27-01.49.05:128][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.27-01.49.05:128][  0]LogRHI: Texture pool is 702 MB (70% of 1003 MB)
+[2017.04.27-01.49.05:922][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.27-01.49.05:943][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.27-01.49.05:947][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Intermediate/Shaders/WorkingDirectory/9476/).
+[2017.04.27-01.49.05:948][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/FAB7381B409A30BE0BF4F18FB485F1DB/'.
+[2017.04.27-01.49.05:948][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.27-01.49.08:842][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.27-01.49.08:921][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.27-01.49.09:001][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.27-01.49.09:081][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.27-01.49.09:171][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.27-01.49.09:257][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.27-01.49.09:339][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.27-01.49.09:418][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.27-01.49.09:484][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.27-01.49.09:579][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.27-01.49.09:667][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.27-01.49.09:769][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.27-01.49.09:857][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.27-01.49.09:938][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.27-01.49.10:018][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.27-01.49.10:221][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.27-01.49.10:221][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.27-01.49.10:291][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.27-01.49.10:453][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.27-01.49.10:499][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.27-01.49.10:584][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.27-01.49.10:662][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.27-01.49.10:745][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.27-01.49.10:839][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.27-01.49.10:839][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.27-01.49.11:534][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache: Loaded boot cache 0.71s 60MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.27-01.49.12:250][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.27-01.49.12:296][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.27-01.49.12:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.27-01.49.12:325][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.27-01.49.12:342][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-01.49.12:342][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-01.49.13:973][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-01.49.13:977][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.27-01.49.14:372][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.27-01.49.14:453][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.27-01.49.14:529][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.27-01.49.14:529][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.27-01.49.14:529][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.27-01.49.15:658][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: childrenofthestars2d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3568801687
+[2017.04.27-01.49.15:726][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2017.04.27-01.49.15:821][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.064750 seconds
+[2017.04.27-01.49.15:829][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.27-01.49.15:829][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.04.27-01.49.15:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.27-01.49.15:909][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.27-01.49.27:434][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.27-01.49.27:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.27-01.49.28:504][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.27-01.49.29:545][  0]SourceControl: Info Source control is disabled
+[2017.04.27-01.49.30:461][  0]SourceControl: Info Source control is disabled
+[2017.04.27-01.49.30:556][  0]SourceControl: Info Source control is disabled
+[2017.04.27-01.49.30:666][  0]SourceControl: Info Source control is disabled
+[2017.04.27-01.49.33:098][  0]LogEngine: Initializing Engine...
+[2017.04.27-01.49.33:100][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.27-01.49.33:505][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.27-01.49.33:525][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-01.49.33:820][  0]LogInit: FAudioDevice initialized.
+[2017.04.27-01.49.33:902][  0]LogDerivedDataCache: Saved boot cache 0.08s 60MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-01.49.33:914][  0]LogInit: Texture streaming: Enabled
+[2017.04.27-01.49.34:095][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.27-01.49.34:253][  0]LogInit: Transaction tracking system initialized
+[2017.04.27-01.49.35:028][  0]BlueprintLog: New page: Editor Load
+[2017.04.27-01.49.36:717][  0]LocalizationService: Info Localization service is disabled
+[2017.04.27-01.49.38:056][  0]LogConsoleResponse:Display: 
+[2017.04.27-01.49.38:303][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.27-01.49.38:303][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.27-01.49.39:122][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/' took 0.04s
+[2017.04.27-01.49.40:586][  0]SourceControl: Info Source control is disabled
+[2017.04.27-01.49.40:586][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.27-01.49.40:587][  0]LightingResults: New page: Lighting Build
+[2017.04.27-01.49.40:647][  0]MapCheck: New page: Map Check
+[2017.04.27-01.49.40:647][  0]LightingResults: New page: Lighting Build
+[2017.04.27-01.49.41:099][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.04.27-01.49.41:108][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.27-01.49.41:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.27-01.49.41:246][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.988ms to complete.
+[2017.04.27-01.49.41:246][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.660
+[2017.04.27-01.49.41:317][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.27-01.49.41:800][  0]LogCollectionManager: Loaded 0 collections in 0.001824 seconds
+[2017.04.27-01.49.42:029][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/Collections/' took 0.01s
+[2017.04.27-01.49.42:029][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/Developers/Student/Collections/' took 0.01s
+[2017.04.27-01.49.42:029][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/Collections/' took 0.01s
+[2017.04.27-01.49.42:029][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2017.04.27-01.49.42:045][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2244 classes and 450 folders.
+[2017.04.27-01.49.42:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.27-01.49.42:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.27-01.49.42:229][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.04.27-01.49.43:601][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2017.04.27-01.49.43:884][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.04.27-01.49.44:026][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.27-01.49.44:070][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.27-01.49.44:235][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.04.27-01.49.44:235][  0]LogLoad: (Engine Initialization) Total time: 46.59 seconds
+[2017.04.27-01.49.44:235][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.04.27-01.49.44:235][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.27-01.49.44:235][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.27-01.49.44:255][  0]LogOcInput: OculusInput pre-init called
+[2017.04.27-01.49.44:325][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.27-01.49.44:344][  0]LogSlate: Took 0.017559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-01.49.44:365][  0]LogSlate: Took 0.013200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.27-01.49.44:382][  0]LogSlate: Took 0.008020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.27-01.49.44:655][  0]LogSlate: Took 0.021535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-01.49.44:903][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:2).
+[2017.04.27-01.49.46:086][  1]LogAssetRegistry: Asset discovery search completed in 30.3825 seconds
+[2017.04.27-01.49.46:086][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2017.04.27-01.49.46:086][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.04.27-01.51.37:848][947]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.04.27-01.51.38:166][947]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.04.27-01.51.39:800][  8]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.04.27-01.51.39:830][  8]LogEditorViewport: Clicking on Actor (double click): PlayerStart (NetworkPlayerStart)
+[2017.04.27-01.51.41:781][105]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.27-01.51.43:626][198]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.27-01.51.44:804][256]Cmd: TRANSACTION UNDO
+[2017.04.27-01.51.44:804][256]LogEditorTransaction: Undo Move Actors
+[2017.04.27-01.51.44:815][256]LogSlate: Took 0.000659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-01.51.45:174][269]Cmd: TRANSACTION UNDO
+[2017.04.27-01.51.45:174][269]LogEditorTransaction: Undo Move Actors
+[2017.04.27-01.52.16:130][831]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.04.27-01.52.19:156][971]Cmd: EDIT COPY
+[2017.04.27-01.52.19:689][998]Cmd: EDIT PASTE
+[2017.04.27-01.52.28:017][401]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2017.04.27-01.52.28:763][423]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2017.04.27-01.52.29:715][474]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.04.27-01.52.33:745][655]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.04.27-01.52.38:469][867]Cmd: EDIT COPY
+[2017.04.27-01.52.39:192][901]Cmd: EDIT PASTE
+[2017.04.27-01.53.08:003][198]LogSlate: Took 0.000533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-01.53.08:718][198]LogSlate: Took 0.000807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-01.53.08:987][198]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2017.04.27-01.53.10:346][198]LogSlate: Took 0.008893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.27-01.53.10:698][199]LogSlate: Took 0.004427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.27-01.54.20:683][474]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter2)
+[2017.04.27-01.54.21:141][496]Cmd: DELETE
+[2017.04.27-01.54.21:141][496]Cmd: ACTOR DELETE
+[2017.04.27-01.54.21:142][496]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2017.04.27-01.54.21:250][496]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2017.04.27-01.54.37:131][ 16]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/character_2.SKEL_character_2_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.PackageMetaData'
+[2017.04.27-01.54.37:131][ 16]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/character_2.character_2_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.PackageMetaData'
+[2017.04.27-01.54.37:264][ 16]LogSavePackage: Save=78.75ms
+[2017.04.27-01.54.37:264][ 16]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/character_26DFA6A174C1DE9F9C88B7E8EBBC23EE9.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset'
+[2017.04.27-01.54.37:274][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset
+[2017.04.27-01.54.47:685][465]LogEditorViewport: Clicking on Actor (LMB): character_2_C (character_2)
+[2017.04.27-01.55.00:910][100]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_33)
+[2017.04.27-01.55.02:332][166]LogEditorViewport: Clicking on Actor (LMB): character_2_C (character_2)
+[2017.04.27-01.56.53:873][637]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.04.27-01.56.55:364][684]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ChildrenOfTheStars2D
+
+[2017.04.27-01.56.55:364][684]LogTemp:Display: CWD: D:\Student Data\Unreal\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.27-01.56.55:364][684]LogTemp:Display: Initial Dir: D:\Student Data\Unreal\Epic Games\UE_4.15
+
+[2017.04.27-01.56.55:364][684]LogTemp:Display: Env CWD: D:\Student Data\Unreal\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.27-01.56.55:364][684]LogTemp:Display: BranchPath = C-5820B176A590/D/Student Data/Unreal/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = C-5820B176A590/D/Student Data/Unreal/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Student\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.04.27-01.56.55:639][695]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.04.27-01.59.44:724][498]LogSavePackage: Save=193.11ms
+[2017.04.27-01.59.44:724][498]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/2DSideScrollerExampleMap_Auto1860020B140656E2CE95B35A952A209F3.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2017.04.27-01.59.44:729][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.04.27-01.59.44:732][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.273
+[2017.04.27-01.59.44:732][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.273
+[2017.04.27-01.59.44:784][498]LogSavePackage: Save=4.89ms
+[2017.04.27-01.59.44:784][498]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/2DSideScrollerCharacter_2_Auto1636DC60B4F3A4A882BA128A5F9C049E6.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2_Auto1.uasset'
+[2017.04.27-01.59.44:789][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2_Auto1.uasset
+[2017.04.27-01.59.44:789][498]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.04.27-02.03.50:810][962]BlueprintLog: New page: Compile character_2
+[2017.04.27-02.03.51:778][979]LogSavePackage: Save=81.91ms
+[2017.04.27-02.03.51:778][979]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/character_2D5E62BCD465BC5DDDA0CA09AF902493A.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset'
+[2017.04.27-02.03.51:784][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset
+[2017.04.27-02.03.54:884][100]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.27-02.03.54:899][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.04.27-02.03.54:899][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-02.03.54:900][100]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 26, 2017, 4:03:54 PM)
+[2017.04.27-02.03.54:900][100]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.04.27-02.03.54:904][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004512s)
+[2017.04.27-02.03.54:905][100]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.04.27-02.03.54:905][100]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.04.27-02.03.54:906][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005896s)
+[2017.04.27-02.03.54:977][100]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-02.03.55:011][100]LogInit: FAudioDevice initialized.
+[2017.04.27-02.03.55:098][100]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.04.27-02.03.55:104][100]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2017.04.26-21.03.55
+[2017.04.27-02.03.55:105][100]LogWorld: Bringing up level for play took: 0.004586
+[2017.04.27-02.03.55:210][100]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.04.27-02.03.55:211][100]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.479
+[2017.04.27-02.03.55:211][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.04.27-02.04.06:131][575]LogEditorViewport: Clicking on Actor (LMB): character_2_C (character_2)
+[2017.04.27-02.04.19:816][320]LogSavePackage: Save=185.15ms
+[2017.04.27-02.04.19:816][320]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/2DSideScrollerExampleMap688746044ECCACC3E8F593A18DF5EB2B.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.04.27-02.04.19:823][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.04.27-02.04.19:925][320]LogSavePackage: Save=22.29ms
+[2017.04.27-02.04.19:925][320]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Saved/2DSideScrollerExampleMap_BuiltData4BD18A6C41FCEA54F7027E9CEF29657F.tmp' to '../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.04.27-02.04.19:928][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/children of the sun/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.04.27-02.04.24:126][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.04.27-02.04.25:059][545]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.920 s
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: 
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 755]
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: Type mismatch: Expected 2DSideScrollerExampleMap_C, Found REINST_2DSideScrollerExampleMap_C_49
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: Stack: 
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AA9495D6
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AA6F9B72
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AA70B656
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000009DE2F191
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000009EC083C1
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009CA0271D
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009C9BE31E
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009C4E7A9F
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009CCF1AD6
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor.exe!0x00000000D41ADEE3
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor.exe!0x00000000D419EB40
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor.exe!0x00000000D419EBBA
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor.exe!0x00000000D41B0A29
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: UE4Editor.exe!0x00000000D41B22B6
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: KERNEL32.DLL!0x00000000DE908364
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: ntdll.dll!0x00000000E12D70D1
+[2017.04.27-02.04.25:059][545]LogOutputDevice:Error: 
+[2017.04.27-02.04.25:065][545]LogStats:                SubmitErrorReport -  0.000 s
