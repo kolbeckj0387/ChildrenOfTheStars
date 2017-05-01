@@ -1,0 +1,785 @@
+﻿Log file open, 05/01/17 08:56:07
+LogInit:Display: Running engine for game: ChildrenOfTheStars2D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-43434916) SRandInit(-43434916).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074523
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.01-13.56.08:598][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.01-13.56.08:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.01-13.56.08:613][  0]LogInit: Computer: JH316-05
+[2017.05.01-13.56.08:613][  0]LogInit: User: bensond0925
+[2017.05.01-13.56.08:613][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.01-13.56.08:613][  0]LogInit: High frequency timer resolution =3.604601 MHz
+[2017.05.01-13.56.08:613][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.05.01-13.56.08:613][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.01-13.56.08:613][  0]LogMemory: Process Physical Memory: 264.54 MB used, 264.54 MB peak
+[2017.05.01-13.56.08:613][  0]LogMemory: Process Virtual Memory: 263.39 MB used, 263.39 MB peak
+[2017.05.01-13.56.08:613][  0]LogMemory: Physical Memory: 6477.57 MB used,  18022.23 MB free, 24499.80 MB total
+[2017.05.01-13.56.08:613][  0]LogMemory: Virtual Memory: 660.78 MB used,  18022.23 MB free, 134217728.00 MB total
+[2017.05.01-13.56.08:696][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.01-13.56.09:332][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.01-13.56.09:352][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2000' (Feature Level 11_0)
+[2017.05.01-13.56.09:352][  0]LogD3D11RHI:       2017/0/12249 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.01-13.56.09:353][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.01-13.56.09:353][  0]LogD3D11RHI:       0/0/12249 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.01-13.56.09:353][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.01-13.56.09:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.01-13.56.09:357][  0]LogD3D11RHI:     GPU DeviceId: 0xffe (for the marketing name, search the web for "GPU Device Id")
+[2017.05.01-13.56.09:357][  0]LogWindows: EnumDisplayDevices:
+[2017.05.01-13.56.09:357][  0]LogWindows:    0. 'NVIDIA Quadro K2000' (P:1 D:1)
+[2017.05.01-13.56.09:357][  0]LogWindows:    1. 'NVIDIA Quadro K2000' (P:0 D:1)
+[2017.05.01-13.56.09:358][  0]LogWindows:    2. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.05.01-13.56.09:358][  0]LogWindows:    3. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.05.01-13.56.09:358][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.01-13.56.09:358][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2000
+[2017.05.01-13.56.09:358][  0]LogD3D11RHI:   Driver Version: 368.86 (internal:10.18.13.6886, unified:368.86)
+[2017.05.01-13.56.09:358][  0]LogD3D11RHI:      Driver Date: 7-12-2016
+[2017.05.01-13.56.09:358][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.01-13.56.09:372][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.01-13.56.09:374][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.01-13.56.09:390][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.01-13.56.09:486][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Intermediate/Shaders/WorkingDirectory/8196/).
+[2017.05.01-13.56.09:487][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bensond0925/AppData/Local/Temp/UnrealShaderWorkingDir/F93FB0AF4B0723EA12F21EA119EFA40C/'.
+[2017.05.01-13.56.09:487][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.01-13.56.10:587][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.01-13.56.10:649][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.01-13.56.10:710][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.01-13.56.10:771][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.01-13.56.10:832][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.01-13.56.10:915][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.01-13.56.10:979][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.01-13.56.11:041][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.01-13.56.11:091][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.01-13.56.11:152][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.01-13.56.11:213][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.01-13.56.11:273][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.01-13.56.11:333][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.01-13.56.11:394][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.01-13.56.11:454][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.01-13.56.11:576][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.01-13.56.11:576][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.01-13.56.11:618][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.01-13.56.11:725][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.01-13.56.11:786][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.01-13.56.11:872][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.01-13.56.11:932][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.01-13.56.11:993][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.01-13.56.12:054][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.01-13.56.12:054][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.01-13.56.12:564][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.01-13.56.12:611][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/bensond0925/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.01-13.56.12:611][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bensond0925/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.01-13.56.12:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.01-13.56.12:612][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.01-13.56.12:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.01-13.56.12:612][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.01-13.56.12:629][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.01-13.56.12:641][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bensond0925/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.01-13.56.12:651][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.01-13.56.12:651][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.01-13.56.12:651][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.01-13.56.12:930][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.01-13.56.12:933][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.01-13.56.13:145][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.01-13.56.13:191][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.01-13.56.13:241][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.01-13.56.13:241][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.01-13.56.13:241][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.01-13.56.13:812][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: childrenofthestars2d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3568801687
+[2017.05.01-13.56.13:861][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.01-13.56.13:916][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026325 seconds
+[2017.05.01-13.56.13:923][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.01-13.56.13:923][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.01-13.56.13:923][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.01-13.56.13:998][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.01-13.56.15:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.01-13.56.15:739][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.01-13.56.16:231][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.01-13.56.16:617][  0]SourceControl: Info Source control is disabled
+[2017.05.01-13.56.16:664][  0]SourceControl: Info Source control is disabled
+[2017.05.01-13.56.16:713][  0]SourceControl: Info Source control is disabled
+[2017.05.01-13.56.16:760][  0]SourceControl: Info Source control is disabled
+[2017.05.01-13.56.18:185][  0]LogEngine: Initializing Engine...
+[2017.05.01-13.56.18:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.01-13.56.18:185][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
+[2017.05.01-13.56.21:232][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.01-13.56.21:232][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.01-13.56.21:500][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.01-13.56.21:505][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-13.56.21:532][  0]LogInit: FAudioDevice initialized.
+[2017.05.01-13.56.21:563][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/bensond0925/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.01-13.56.21:571][  0]LogInit: Texture streaming: Enabled
+[2017.05.01-13.56.21:681][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.01-13.56.21:778][  0]LogInit: Transaction tracking system initialized
+[2017.05.01-13.56.22:194][  0]BlueprintLog: New page: Editor Load
+[2017.05.01-13.56.23:293][  0]LocalizationService: Info Localization service is disabled
+[2017.05.01-13.56.24:123][  0]LogConsoleResponse:Display: 
+[2017.05.01-13.56.24:267][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.01-13.56.24:267][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.01-13.56.24:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/' took 0.01s
+[2017.05.01-13.56.25:362][  0]SourceControl: Info Source control is disabled
+[2017.05.01-13.56.25:362][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.01-13.56.25:363][  0]LightingResults: New page: Lighting Build
+[2017.05.01-13.56.25:411][  0]MapCheck: New page: Map Check
+[2017.05.01-13.56.25:411][  0]LightingResults: New page: Lighting Build
+[2017.05.01-13.56.25:763][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-13.56.25:788][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.01-13.56.25:789][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-13.56.25:843][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.247ms to complete.
+[2017.05.01-13.56.25:843][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.481
+[2017.05.01-13.56.26:102][  0]LogCollectionManager: Loaded 0 collections in 0.001361 seconds
+[2017.05.01-13.56.26:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Collections/' took 0.01s
+[2017.05.01-13.56.26:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/Developers/bensond0925/Collections/' took 0.01s
+[2017.05.01-13.56.26:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/Collections/' took 0.01s
+[2017.05.01-13.56.26:216][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.01-13.56.26:225][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2245 classes and 453 folders.
+[2017.05.01-13.56.26:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.01-13.56.26:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.01-13.56.26:297][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.01-13.56.26:332][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.01-13.56.26:378][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.01-13.56.26:429][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.01-13.56.26:435][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.01-13.56.26:531][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.01-13.56.26:531][  0]LogLoad: (Engine Initialization) Total time: 20.05 seconds
+[2017.05.01-13.56.26:531][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.05.01-13.56.26:531][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.01-13.56.26:531][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.01-13.56.26:541][  0]LogOcInput: OculusInput pre-init called
+[2017.05.01-13.56.26:550][  0]LogOcInput: OculusInput is initialized. Init status -3023. Runtime version: (Unable to load LibOVR)
+[2017.05.01-13.56.26:570][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.01-13.56.26:571][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.01-13.56.26:575][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.01-13.56.26:581][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.01-13.56.26:710][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-13.56.26:783][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:2).
+[2017.05.01-13.56.26:866][  1]LogAssetRegistry: Asset discovery search completed in 13.0267 seconds
+[2017.05.01-13.56.26:866][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.01-13.56.26:866][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.05.01-13.56.27:575][ 55]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-13.57.38:615][778]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.01-13.57.38:632][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-13.57.38:632][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-13.57.38:632][778]PIE: New page: PIE session: 2DSideScrollerExampleMap (May 1, 2017, 3:57:38 AM)
+[2017.05.01-13.57.38:632][778]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.05.01-13.57.38:636][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003564s)
+[2017.05.01-13.57.38:637][778]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-13.57.38:637][778]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.05.01-13.57.38:637][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004492s)
+[2017.05.01-13.57.38:650][778]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-13.57.38:657][778]LogInit: FAudioDevice initialized.
+[2017.05.01-13.57.38:714][778]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.05.01-13.57.38:722][778]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.05.01-08.57.38
+[2017.05.01-13.57.38:724][778]LogWorld: Bringing up level for play took: 0.006040
+[2017.05.01-13.57.38:789][778]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.01-13.57.38:790][778]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.404
+[2017.05.01-13.57.38:791][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-13.57.51:233][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-13.57.51:278][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-13.57.55:588][232]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-13.57.56:158][232]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.01-13.57.56:920][232]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.01-13.57.57:011][232]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.01-13.57.57:251][233]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.01-13.58.02:027][537]LogRenderer: Reallocating scene render targets to support 1056x688 NumSamples 1 (Frame:3574).
+[2017.05.01-13.58.05:931][713]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.05.01-14.00.11:530][995]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.05.01-14.00.18:098][371]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.05.01-14.00.18:120][371]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2017.05.01-14.00.22:686][659]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.01-14.00.22:708][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.00.22:708][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-14.00.22:708][659]PIE: New page: PIE session: 2DSideScrollerExampleMap (May 1, 2017, 4:00:22 AM)
+[2017.05.01-14.00.22:708][659]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.05.01-14.00.22:711][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003309s)
+[2017.05.01-14.00.22:712][659]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-14.00.22:712][659]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.05.01-14.00.22:712][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004223s)
+[2017.05.01-14.00.22:734][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-14.00.22:742][659]LogInit: FAudioDevice initialized.
+[2017.05.01-14.00.22:774][659]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.05.01-14.00.22:776][659]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.05.01-09.00.22
+[2017.05.01-14.00.22:777][659]LogWorld: Bringing up level for play took: 0.002031
+[2017.05.01-14.00.22:778][659]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.417
+[2017.05.01-14.00.22:778][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.00.42:639][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.00.42:704][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.13:436][538]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.05.01-14.01.14:330][565]LogSavePackage: Save=53.45ms
+[2017.05.01-14.01.14:331][565]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/2DSideScrollerCharacter87BE80FE4031D439EB33839AEB7DE951.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.05.01-14.01.14:336][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.05.01-14.01.15:301][611]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.01-14.01.15:318][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.15:319][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-14.01.15:319][611]PIE: New page: PIE session: 2DSideScrollerExampleMap (May 1, 2017, 4:01:15 AM)
+[2017.05.01-14.01.15:319][611]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.05.01-14.01.15:322][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003359s)
+[2017.05.01-14.01.15:323][611]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-14.01.15:323][611]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.05.01-14.01.15:323][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004354s)
+[2017.05.01-14.01.15:341][611]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-14.01.15:348][611]LogInit: FAudioDevice initialized.
+[2017.05.01-14.01.15:381][611]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.05.01-14.01.15:384][611]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.05.01-09.01.15
+[2017.05.01-14.01.15:384][611]LogWorld: Bringing up level for play took: 0.001972
+[2017.05.01-14.01.15:385][611]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.19
+[2017.05.01-14.01.15:386][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.26:544][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.26:622][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.36:569][879]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.05.01-14.01.37:426][905]LogSavePackage: Save=60.31ms
+[2017.05.01-14.01.37:426][905]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/2DSideScrollerCharacterE46B2F0B433B39A8DDD4F5A45F3B3401.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.05.01-14.01.37:428][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.05.01-14.01.38:514][957]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.01-14.01.38:530][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.38:530][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-14.01.38:531][957]PIE: New page: PIE session: 2DSideScrollerExampleMap (May 1, 2017, 4:01:38 AM)
+[2017.05.01-14.01.38:531][957]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.05.01-14.01.38:534][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003201s)
+[2017.05.01-14.01.38:534][957]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-14.01.38:534][957]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.05.01-14.01.38:534][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004039s)
+[2017.05.01-14.01.38:551][957]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-14.01.38:557][957]LogInit: FAudioDevice initialized.
+[2017.05.01-14.01.38:585][957]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.05.01-14.01.38:587][957]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.05.01-09.01.38
+[2017.05.01-14.01.38:588][957]LogWorld: Bringing up level for play took: 0.001931
+[2017.05.01-14.01.38:589][957]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.607
+[2017.05.01-14.01.38:589][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.43:300][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.43:347][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.50:770][637]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.05.01-14.01.51:412][654]LogSavePackage: Save=53.12ms
+[2017.05.01-14.01.51:412][654]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/2DSideScrollerCharacterBF1AC0E345BFC4433FA4C48F11CEBC23.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.05.01-14.01.51:417][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.05.01-14.01.52:343][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.01-14.01.52:360][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.01.52:360][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-14.01.52:360][698]PIE: New page: PIE session: 2DSideScrollerExampleMap (May 1, 2017, 4:01:52 AM)
+[2017.05.01-14.01.52:360][698]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.05.01-14.01.52:364][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003151s)
+[2017.05.01-14.01.52:364][698]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.01-14.01.52:364][698]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.05.01-14.01.52:364][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003965s)
+[2017.05.01-14.01.52:383][698]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-14.01.52:390][698]LogInit: FAudioDevice initialized.
+[2017.05.01-14.01.52:419][698]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.05.01-14.01.52:421][698]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.05.01-09.01.52
+[2017.05.01-14.01.52:422][698]LogWorld: Bringing up level for play took: 0.001921
+[2017.05.01-14.01.52:423][698]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.773
+[2017.05.01-14.01.52:423][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.02.04:930][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.02.04:974][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.05.01-14.05.38:326][175]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.05.39:283][208]LogSavePackage: Save=49.88ms
+[2017.05.01-14.05.39:283][208]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/character_2E3ED4CD842A996297C4122B2D83D42D1.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset'
+[2017.05.01-14.05.39:286][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset
+[2017.05.01-14.05.40:795][302]LogEditorViewport: Clicking Background
+[2017.05.01-14.05.41:912][370]LogEditorViewport: Clicking on Actor (LMB): character_2_C (character_2)
+[2017.05.01-14.06.02:675][601]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.07.28:478][808]LogSavePackage: Save=159.44ms
+[2017.05.01-14.07.28:478][808]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/2DSideScrollerExampleMap_Auto101D004144264F07B865198A1199D2F82.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2017.05.01-14.07.28:481][808]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.05.01-14.07.28:483][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.196
+[2017.05.01-14.07.28:483][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2017.05.01-14.07.28:485][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/character_2] ([1] browsable assets)...
+[2017.05.01-14.07.28:485][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/character_2]
+[2017.05.01-14.07.28:539][808]LogSavePackage: Save=47.22ms
+[2017.05.01-14.07.28:539][808]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/character_2_Auto1D8D2D90043E6DD823B1BEF8B2741715F.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/character_2_Auto1.uasset'
+[2017.05.01-14.07.28:540][808]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/character_2_Auto1.uasset
+[2017.05.01-14.07.28:540][808]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.05.01-14.09.01:196][476]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.09.01:222][476]LogBlueprint:Error: [Compiler character_2] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.05.01-14.09.01:968][476]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.05.01-14.09.01:968][476]LogBlueprint:Warning: [Compiler character_2] Warning [0775.48] Compile of character_2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 772 ms] (/Game/2DSideScrollerBP/Blueprints/character_2.character_2)
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.tree_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.tree_Blueprint_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.tree_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.tree_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.tree_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:885][122]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/tree_Blueprint.SKEL_tree_Blueprint_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Cube_Blueprint.PackageMetaData'
+[2017.05.01-14.09.17:968][122]LogSavePackage: Save=25.19ms
+[2017.05.01-14.09.17:968][122]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/tree_Blueprint6487F362481F94114187A3A081DDB027.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/tree_Blueprint.uasset'
+[2017.05.01-14.09.17:971][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/tree_Blueprint.uasset
+[2017.05.01-14.09.17:999][122]LogSavePackage: Save=11.19ms
+[2017.05.01-14.09.17:999][122]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/Cube_Blueprint5573D21C4B6E70FBE5A12AB27339BC0C.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/Cube_Blueprint.uasset'
+[2017.05.01-14.09.18:002][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/Cube_Blueprint.uasset
+[2017.05.01-14.10.17:123][112]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.17:125][112]LogTemp:Display: Added material ShaderMap 0x0000006A25357C80 with Material 0x0000006A16E4BB00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.17:161][112]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A25357C80
+[2017.05.01-14.10.17:415][112]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.17:416][112]LogTemp:Display: Added material ShaderMap 0x0000006A2B5AC800 with Material 0x0000006A16E4BB00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.17:435][112]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A2B5AC800
+[2017.05.01-14.10.17:435][112]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.10.17:466][112]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.01-14.10.17:467][112]LogTemp:Display: Added material ShaderMap 0x0000006A2B4BEE80 with Material 0x0000006A2B57FA00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.17:471][112]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000006A2B4BEE80
+[2017.05.01-14.10.17:762][113]LogTemp:Display: Finished compile of shader map 0x0000006A25357C80
+[2017.05.01-14.10.17:762][113]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A25357C80, marking material BasicShapeMaterial as finished
+[2017.05.01-14.10.17:762][113]LogTemp:Display: Marking material as finished 0x0000006A16E4BB00
+[2017.05.01-14.10.18:480][145]LogTemp:Display: Finished compile of shader map 0x0000006A2B5AC800
+[2017.05.01-14.10.18:480][145]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A2B5AC800, marking material BasicShapeMaterial as finished
+[2017.05.01-14.10.18:480][145]LogTemp:Display: Marking material as finished 0x0000006A16E4BB00
+[2017.05.01-14.10.18:497][146]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.10.18:497][146]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.10.18:497][146]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.10.18:497][146]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.10.18:531][148]LogTemp:Display: Finished compile of shader map 0x0000006A2B4BEE80
+[2017.05.01-14.10.18:531][148]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000006A2B4BEE80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.01-14.10.18:531][148]LogTemp:Display: Marking material as finished 0x0000006A2B57FA00
+[2017.05.01-14.10.28:760][639]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.28:761][639]LogTemp:Display: Added material ShaderMap 0x0000006A2BA69600 with Material 0x0000006A16E4BB00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.28:772][639]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A2BA69600
+[2017.05.01-14.10.28:773][639]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.10.28:803][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.01-14.10.28:804][639]LogTemp:Display: Added material ShaderMap 0x0000006A30265600 with Material 0x0000006A2B4D5F00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.28:807][639]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000006A30265600
+[2017.05.01-14.10.29:666][680]LogTemp:Display: Finished compile of shader map 0x0000006A2BA69600
+[2017.05.01-14.10.29:666][680]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A2BA69600, marking material BasicShapeMaterial as finished
+[2017.05.01-14.10.29:666][680]LogTemp:Display: Marking material as finished 0x0000006A16E4BB00
+[2017.05.01-14.10.29:684][681]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.10.29:684][681]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.10.29:684][681]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.10.29:684][681]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.10.29:721][683]LogTemp:Display: Finished compile of shader map 0x0000006A30265600
+[2017.05.01-14.10.29:723][683]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000006A30265600, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.01-14.10.29:723][683]LogTemp:Display: Marking material as finished 0x0000006A2B4D5F00
+[2017.05.01-14.10.35:902][985]LogMaterialEditor: Saving and Compiling material BasicShapeMaterial
+[2017.05.01-14.10.36:594][985]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.36:595][985]LogTemp:Display: Added material ShaderMap 0x0000006A30267580 with Material 0x0000006A16E4BB00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.36:631][985]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A30267580
+[2017.05.01-14.10.36:632][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.10.36:669][985]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.36:671][985]LogTemp:Display: Added material ShaderMap 0x0000006A2B9C6080 with Material 0x0000006991A22380 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.36:755][985]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A2B9C6080
+[2017.05.01-14.10.36:761][985]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.36:762][985]LogTemp:Display: Added material ShaderMap 0x0000006A314B5980 with Material 0x0000006991A22380 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.36:813][985]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A314B5980
+[2017.05.01-14.10.36:814][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.10.36:846][985]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.05.01-14.10.36:847][985]LogTemp:Display: Added material ShaderMap 0x0000006996F93580 with Material 0x0000006A30D17A00 to ShaderMapsBeingCompiled
+[2017.05.01-14.10.37:342][985]LogTemp:Display: Finished compile of shader map 0x0000006996F93580
+[2017.05.01-14.10.37:342][985]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BasicShapeMaterial complete, GameThreadShaderMap 0x0000006996F93580, marking material FDebugViewModeMaterialProxy BasicShapeMaterial as finished
+[2017.05.01-14.10.37:342][985]LogTemp:Display: Marking material as finished 0x0000006A30D17A00
+[2017.05.01-14.10.37:365][985]TextureStreamingBuild:Display: Compiling optional shaders took 0.524 seconds.
+[2017.05.01-14.10.40:477][985]LogTemp:Display: Finished compile of shader map 0x0000006A314B5980
+[2017.05.01-14.10.40:477][985]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A314B5980, marking material BasicShapeMaterial as finished
+[2017.05.01-14.10.40:477][985]LogTemp:Display: Marking material as finished 0x0000006991A22380
+[2017.05.01-14.10.40:484][985]LogTemp:Display: Finished compile of shader map 0x0000006A30267580
+[2017.05.01-14.10.40:484][985]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A30267580, marking material BasicShapeMaterial as finished
+[2017.05.01-14.10.40:484][985]LogTemp:Display: Marking material as finished 0x0000006A16E4BB00
+[2017.05.01-14.10.40:518][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2017.05.01-14.10.40:544][985]LogSavePackage: Save=15.76ms
+[2017.05.01-14.10.40:544][985]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/BasicShapeMaterial14DF15BC4B5017CA2890ED89300EA2D3.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2017.05.01-14.10.40:546][985]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2017.05.01-14.10.48:476][364]BlueprintLog: New page: Compile fruit_blueprint
+[2017.05.01-14.10.51:956][500]LogSavePackage: Save=25.34ms
+[2017.05.01-14.10.51:956][500]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/fruit_blueprint56CDACD44087BD628BD4E8A1312C759E.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/fruit_blueprint.uasset'
+[2017.05.01-14.10.51:958][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/fruit_blueprint.uasset
+[2017.05.01-14.10.56:807][772]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.01-14.11.26:607][578]LogEditorViewport: Clicking on Actor (LMB): tree_Blueprint_C (Cube_Blueprint)
+[2017.05.01-14.12.05:442][929]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.12.06:426][961]LogSavePackage: Save=50.43ms
+[2017.05.01-14.12.06:427][961]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/character_264DB73AE43046457EFCBFF975D979331.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset'
+[2017.05.01-14.12.06:432][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset
+[2017.05.01-14.12.20:824][421]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.20:826][421]LogTemp:Display: Added material ShaderMap 0x00000069CF014100 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.20:846][421]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000069CF014100
+[2017.05.01-14.12.20:959][421]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.20:959][421]LogTemp:Display: Added material ShaderMap 0x0000006A11306B00 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.20:971][421]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A11306B00
+[2017.05.01-14.12.20:971][421]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.20:996][421]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.01-14.12.20:997][421]LogTemp:Display: Added material ShaderMap 0x0000006A11291600 with Material 0x0000006A112D3A00 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.20:999][421]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000006A11291600
+[2017.05.01-14.12.22:114][469]LogTemp:Display: Finished compile of shader map 0x0000006A11306B00
+[2017.05.01-14.12.22:114][469]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A11306B00, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.22:114][469]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.22:132][470]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.22:132][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.22:132][470]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.22:132][470]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.22:178][473]LogTemp:Display: Finished compile of shader map 0x0000006A11291600
+[2017.05.01-14.12.22:178][473]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000006A11291600, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.01-14.12.22:178][473]LogTemp:Display: Marking material as finished 0x0000006A112D3A00
+[2017.05.01-14.12.23:909][559]LogEditorTransaction: Undo Create Pin Link
+[2017.05.01-14.12.23:936][559]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.23:937][559]LogTemp:Display: Added material ShaderMap 0x0000006A2F04CB80 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.23:948][559]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A2F04CB80
+[2017.05.01-14.12.23:948][559]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.24:799][597]LogTemp:Display: Finished compile of shader map 0x0000006A2F04CB80
+[2017.05.01-14.12.24:799][597]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A2F04CB80, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.24:799][597]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.24:815][598]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.24:816][598]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.24:816][598]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.24:816][598]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.25:342][624]LogEditorTransaction: Undo Add Node
+[2017.05.01-14.12.25:365][624]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.25:366][624]LogTemp:Display: Added material ShaderMap 0x0000006A2F04CF00 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.25:377][624]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A2F04CF00
+[2017.05.01-14.12.25:378][624]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.26:159][661]LogEditorTransaction: Undo Move Node
+[2017.05.01-14.12.26:179][661]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.26:180][661]LogTemp:Display: Added material ShaderMap 0x00000069A8DC5D00 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.26:194][661]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000069A8DC5D00
+[2017.05.01-14.12.26:194][661]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.26:260][662]LogTemp:Display: Finished compile of shader map 0x0000006A2F04CF00
+[2017.05.01-14.12.26:260][662]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A2F04CF00, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.26:260][662]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.26:908][695]LogEditorTransaction: Undo Add Node
+[2017.05.01-14.12.26:933][695]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.26:934][695]LogTemp:Display: Added material ShaderMap 0x0000006A01B50800 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.26:950][695]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A01B50800
+[2017.05.01-14.12.26:950][695]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.27:067][698]LogTemp:Display: Finished compile of shader map 0x00000069A8DC5D00
+[2017.05.01-14.12.27:067][698]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x00000069A8DC5D00, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.27:067][698]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.27:857][738]LogTemp:Display: Finished compile of shader map 0x0000006A01B50800
+[2017.05.01-14.12.27:857][738]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A01B50800, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.27:857][738]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.27:874][739]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.27:874][739]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.27:874][739]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.27:874][739]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.28:442][767]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.05.01-14.12.28:467][767]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.28:468][767]LogTemp:Display: Added material ShaderMap 0x0000006A01B53580 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.28:485][767]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A01B53580
+[2017.05.01-14.12.28:485][767]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.29:360][809]LogTemp:Display: Finished compile of shader map 0x0000006A01B53580
+[2017.05.01-14.12.29:360][809]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A01B53580, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.29:360][809]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.29:377][810]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.29:377][810]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.29:377][810]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.29:377][810]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.32:169][948]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.05.01-14.12.32:189][948]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.32:190][948]LogTemp:Display: Added material ShaderMap 0x0000006A01B50800 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.32:203][948]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A01B50800
+[2017.05.01-14.12.32:203][948]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.32:793][972]LogEditorTransaction: Undo Create Pin Link
+[2017.05.01-14.12.32:800][972]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.32:801][972]LogTemp:Display: Added material ShaderMap 0x0000006A25BA6B00 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.32:814][972]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A25BA6B00
+[2017.05.01-14.12.32:814][972]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.32:960][977]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.01-14.12.33:048][977]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.33:049][977]LogTemp:Display: Added material ShaderMap 0x0000006A17C70480 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:065][977]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A17C70480
+[2017.05.01-14.12.33:066][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.33:069][977]LogTemp:Display: Finished compile of shader map 0x0000006A01B50800
+[2017.05.01-14.12.33:069][977]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A01B50800, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:069][977]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.33:173][978]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.05.01-14.12.33:198][978]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.33:199][978]LogTemp:Display: Added material ShaderMap 0x0000006A17E47580 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:217][978]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A17E47580
+[2017.05.01-14.12.33:217][978]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.33:221][978]LogTemp:Display: Finished compile of shader map 0x0000006A25BA6B00
+[2017.05.01-14.12.33:221][978]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A25BA6B00, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:221][978]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.33:302][979]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.05.01-14.12.33:326][979]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.33:327][979]LogTemp:Display: Added material ShaderMap 0x0000006A1791F200 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:340][979]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A1791F200
+[2017.05.01-14.12.33:341][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.33:342][979]LogEditorTransaction: Undo Add Node
+[2017.05.01-14.12.33:361][979]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.33:362][979]LogTemp:Display: Added material ShaderMap 0x0000006A17C71600 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:376][979]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000006A17C71600
+[2017.05.01-14.12.33:376][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.33:379][979]LogTemp:Display: Finished compile of shader map 0x0000006A17C70480
+[2017.05.01-14.12.33:379][979]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A17C70480, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:379][979]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.33:472][981]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.05.01-14.12.33:478][981]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.12.33:479][981]LogTemp:Display: Added material ShaderMap 0x00000069BEF28100 with Material 0x0000006A16E4BB00 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:496][981]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x00000069BEF28100
+[2017.05.01-14.12.33:500][981]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.01-14.12.33:501][981]LogTemp:Display: Added material ShaderMap 0x00000069BEF50100 with Material 0x0000006A17C84B80 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.33:519][981]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000069BEF50100
+[2017.05.01-14.12.33:519][981]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.33:523][981]LogTemp:Display: Finished compile of shader map 0x0000006A17E47580
+[2017.05.01-14.12.33:523][981]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A17E47580, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:523][981]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.33:602][982]LogTemp:Display: Finished compile of shader map 0x0000006A1791F200
+[2017.05.01-14.12.33:602][982]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A1791F200, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:602][982]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.33:687][986]LogTemp:Display: Finished compile of shader map 0x0000006A17C71600
+[2017.05.01-14.12.33:687][986]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x0000006A17C71600, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.33:687][986]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.34:405][ 20]LogTemp:Display: Finished compile of shader map 0x00000069BEF28100
+[2017.05.01-14.12.34:405][ 20]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x00000069BEF28100, marking material BasicShapeMaterial as finished
+[2017.05.01-14.12.34:405][ 20]LogTemp:Display: Marking material as finished 0x0000006A16E4BB00
+[2017.05.01-14.12.35:192][ 58]LogTemp:Display: Finished compile of shader map 0x00000069BEF50100
+[2017.05.01-14.12.35:192][ 58]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x00000069BEF50100, marking material PreviewMaterial_0 as finished
+[2017.05.01-14.12.35:192][ 58]LogTemp:Display: Marking material as finished 0x0000006A17C84B80
+[2017.05.01-14.12.35:207][ 59]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.35:207][ 59]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.35:207][ 59]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.35:207][ 59]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.40:412][204]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.01-14.12.40:413][204]LogTemp:Display: Added material ShaderMap 0x00000069CEC1B580 with Material 0x0000006A1128F100 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.40:426][204]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000069CEC1B580
+[2017.05.01-14.12.40:559][204]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.01-14.12.40:560][204]LogTemp:Display: Added material ShaderMap 0x0000006A33822400 with Material 0x0000006A1128F100 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.40:574][204]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x0000006A33822400
+[2017.05.01-14.12.40:575][204]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.40:599][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.01-14.12.40:600][204]LogTemp:Display: Added material ShaderMap 0x0000006A06F31600 with Material 0x0000006A0D6B6500 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.40:602][204]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000006A06F31600
+[2017.05.01-14.12.41:472][236]LogTemp:Display: Finished compile of shader map 0x0000006A33822400
+[2017.05.01-14.12.41:472][236]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x0000006A33822400, marking material PreviewMaterial_1 as finished
+[2017.05.01-14.12.41:472][236]LogTemp:Display: Marking material as finished 0x0000006A1128F100
+[2017.05.01-14.12.41:490][237]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.41:490][237]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.41:490][237]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.41:490][237]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.41:522][239]LogTemp:Display: Finished compile of shader map 0x0000006A06F31600
+[2017.05.01-14.12.41:522][239]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000006A06F31600, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.01-14.12.41:522][239]LogTemp:Display: Marking material as finished 0x0000006A0D6B6500
+[2017.05.01-14.12.46:633][482]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.01-14.12.46:634][482]LogTemp:Display: Added material ShaderMap 0x0000006A33626B00 with Material 0x0000006A1128F100 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.46:645][482]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x0000006A33626B00
+[2017.05.01-14.12.46:645][482]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.46:675][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.01-14.12.46:675][482]LogTemp:Display: Added material ShaderMap 0x0000006A2EFFA400 with Material 0x0000006A0D2F7700 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.46:678][482]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000006A2EFFA400
+[2017.05.01-14.12.47:540][522]LogTemp:Display: Finished compile of shader map 0x0000006A33626B00
+[2017.05.01-14.12.47:540][522]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x0000006A33626B00, marking material PreviewMaterial_1 as finished
+[2017.05.01-14.12.47:540][522]LogTemp:Display: Marking material as finished 0x0000006A1128F100
+[2017.05.01-14.12.47:558][523]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.05.01-14.12.47:558][523]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.05.01-14.12.47:558][523]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.12.47:558][523]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.12.47:611][526]LogTemp:Display: Finished compile of shader map 0x0000006A2EFFA400
+[2017.05.01-14.12.47:611][526]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000006A2EFFA400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.01-14.12.47:611][526]LogTemp:Display: Marking material as finished 0x0000006A0D2F7700
+[2017.05.01-14.12.51:190][701]LogMaterialEditor: Saving and Compiling material BasicShapeMaterial
+[2017.05.01-14.12.51:807][701]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.01-14.12.51:807][701]LogTemp:Display: Added material ShaderMap 0x0000006A2EFF9980 with Material 0x0000006A1128F100 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.51:857][701]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x0000006A2EFF9980
+[2017.05.01-14.12.51:858][701]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.51:875][701]LogTemp:Display: Removed shader map 0x0000006A2B9C6080 from material 0x0000006991A22380
+[2017.05.01-14.12.51:884][701]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.12.51:885][701]LogTemp:Display: Added material ShaderMap 0x0000006A06F31600 with Material 0x0000006991A22500 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.51:965][701]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A06F31600
+[2017.05.01-14.12.51:968][701]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.01-14.12.51:970][701]LogTemp:Display: Added material ShaderMap 0x0000006A380B5980 with Material 0x0000006991A22500 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.52:030][701]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000006A380B5980
+[2017.05.01-14.12.52:032][701]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.12.52:061][701]LogTemp:Display: Removed shader map 0x00000069CF014100 from material 0x0000006A17C84B80
+[2017.05.01-14.12.52:071][701]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.05.01-14.12.52:071][701]LogTemp:Display: Added material ShaderMap 0x0000006A388B3C80 with Material 0x0000006A388C7A00 to ShaderMapsBeingCompiled
+[2017.05.01-14.12.52:552][701]LogTemp:Display: Finished compile of shader map 0x0000006A388B3C80
+[2017.05.01-14.12.52:552][701]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A388B3C80, marking material FDebugViewModeMaterialProxy BasicShapeMaterial as finished
+[2017.05.01-14.12.52:552][701]LogTemp:Display: Marking material as finished 0x0000006A388C7A00
+[2017.05.01-14.12.52:556][701]TextureStreamingBuild:Display: Compiling optional shaders took 0.492 seconds.
+[2017.05.01-14.12.55:654][701]LogTemp:Display: Finished compile of shader map 0x0000006A380B5980
+[2017.05.01-14.12.55:654][701]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000006A380B5980, marking material BasicShapeMaterial as finished
+[2017.05.01-14.12.55:654][701]LogTemp:Display: Marking material as finished 0x0000006991A22500
+[2017.05.01-14.12.55:660][701]LogTemp:Display: Finished compile of shader map 0x0000006A2EFF9980
+[2017.05.01-14.12.55:660][701]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x0000006A2EFF9980, marking material PreviewMaterial_1 as finished
+[2017.05.01-14.12.55:660][701]LogTemp:Display: Marking material as finished 0x0000006A1128F100
+[2017.05.01-14.12.55:705][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2017.05.01-14.12.55:726][701]LogSavePackage: Save=13.08ms
+[2017.05.01-14.12.55:726][701]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/BasicShapeMaterial65F6A17C4C1D3A0780DAFB80C31C6550.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2017.05.01-14.12.55:728][701]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2017.05.01-14.14.39:696][553]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2017.05.01-14.14.39:697][553]LogTemp:Display: Added material ShaderMap 0x00000069BE039280 with Material 0x00000069CEC95F00 to ShaderMapsBeingCompiled
+[2017.05.01-14.14.39:717][553]LogTemp:Display: Kicking off shader compilation for M_AssetPlatform, GameThreadShaderMap 0x00000069BE039280
+[2017.05.01-14.14.41:900][635]LogTemp:Display: Finished compile of shader map 0x00000069BE039280
+[2017.05.01-14.14.41:900][635]LogTemp:Display: Shader map M_AssetPlatform complete, GameThreadShaderMap 0x00000069BE039280, marking material M_AssetPlatform as finished
+[2017.05.01-14.14.41:900][635]LogTemp:Display: Marking material as finished 0x00000069CEC95F00
+[2017.05.01-14.14.57:721][232]LogSavePackage: Save=14.07ms
+[2017.05.01-14.14.57:722][232]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/appleEA505BA340A8F9EECB31E09D1A91EB0C.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScroller/Textures/apple.uasset'
+[2017.05.01-14.14.57:724][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScroller/Textures/apple.uasset
+[2017.05.01-14.15.06:371][592]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.06:372][592]LogTemp:Display: Added material ShaderMap 0x0000006A388B2B00 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.15.06:384][592]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A388B2B00
+[2017.05.01-14.15.06:484][592]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.06:485][592]LogTemp:Display: Added material ShaderMap 0x0000006A394F0480 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.15.06:497][592]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A394F0480
+[2017.05.01-14.15.06:497][592]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.15.07:612][633]LogTemp:Display: Finished compile of shader map 0x0000006A394F0480
+[2017.05.01-14.15.07:613][633]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A394F0480, marking material apple as finished
+[2017.05.01-14.15.07:613][633]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.15.07:659][634]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.15.07:659][634]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.15.07:659][634]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.15.07:659][634]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.15.42:331][350]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.42:331][350]LogTemp:Display: Added material ShaderMap 0x0000006A16F24100 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.15.42:343][350]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A16F24100
+[2017.05.01-14.15.42:343][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.15.43:460][404]LogTemp:Display: Finished compile of shader map 0x0000006A16F24100
+[2017.05.01-14.15.43:460][404]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A16F24100, marking material apple as finished
+[2017.05.01-14.15.43:460][404]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.15.43:475][405]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.15.43:475][405]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.15.43:475][405]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.15.43:475][405]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.15.52:776][861]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.52:778][861]LogTemp:Display: Added material ShaderMap 0x0000006A388B1D00 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.15.52:794][861]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A388B1D00
+[2017.05.01-14.15.52:794][861]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.15.52:796][861]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.52:796][861]LogMaterial:Warning: Failed to compile Material /Engine/Transient.apple for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.01-14.15.52:796][861]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.05.01-14.15.52:797][861]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.15.52:799][861]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2017.05.01-14.15.54:906][966]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.15.54:907][966]LogTemp:Display: Added material ShaderMap 0x0000006A3C127200 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.15.54:922][966]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A3C127200
+[2017.05.01-14.15.54:922][966]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.15.55:767][  6]LogTemp:Display: Finished compile of shader map 0x0000006A3C127200
+[2017.05.01-14.15.55:767][  6]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A3C127200, marking material apple as finished
+[2017.05.01-14.15.55:767][  6]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.15.55:784][  7]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.15.55:784][  7]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.15.55:784][  7]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.15.55:784][  7]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.16.03:563][389]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.03:564][389]LogTemp:Display: Added material ShaderMap 0x0000006A406F1980 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.03:576][389]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A406F1980
+[2017.05.01-14.16.03:576][389]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.16.03:577][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.05.01-14.16.03:578][389]LogTemp:Display: Added material ShaderMap 0x0000006A40B06400 with Material 0x0000006A388C4100 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.03:580][389]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_2, GameThreadShaderMap 0x0000006A40B06400
+[2017.05.01-14.16.04:435][430]LogTemp:Display: Finished compile of shader map 0x0000006A406F1980
+[2017.05.01-14.16.04:435][430]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A406F1980, marking material apple as finished
+[2017.05.01-14.16.04:435][430]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.16.04:452][431]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.16.04:452][431]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.16.04:452][431]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.16.04:452][431]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.16.04:512][435]LogTemp:Display: Finished compile of shader map 0x0000006A40B06400
+[2017.05.01-14.16.04:512][435]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_2 complete, GameThreadShaderMap 0x0000006A40B06400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_2 as finished
+[2017.05.01-14.16.04:512][435]LogTemp:Display: Marking material as finished 0x0000006A388C4100
+[2017.05.01-14.16.10:785][743]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.10:786][743]LogTemp:Display: Added material ShaderMap 0x0000006A40B06780 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.10:797][743]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A40B06780
+[2017.05.01-14.16.10:797][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.16.10:827][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.05.01-14.16.10:827][743]LogTemp:Display: Added material ShaderMap 0x0000006A40747580 with Material 0x0000006A17E95900 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.10:830][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_2, GameThreadShaderMap 0x0000006A40747580
+[2017.05.01-14.16.11:676][784]LogTemp:Display: Finished compile of shader map 0x0000006A40B06780
+[2017.05.01-14.16.11:676][784]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A40B06780, marking material apple as finished
+[2017.05.01-14.16.11:676][784]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.16.11:692][785]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.16.11:692][785]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.16.11:692][785]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.16.11:692][785]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.16.11:744][788]LogTemp:Display: Finished compile of shader map 0x0000006A40747580
+[2017.05.01-14.16.11:744][788]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_2 complete, GameThreadShaderMap 0x0000006A40747580, marking material FMatExpressionPreview MaterialExpressionVectorParameter_2 as finished
+[2017.05.01-14.16.11:744][788]LogTemp:Display: Marking material as finished 0x0000006A17E95900
+[2017.05.01-14.16.15:770][979]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.15:770][979]LogTemp:Display: Added material ShaderMap 0x0000006A4090A780 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.15:781][979]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A4090A780
+[2017.05.01-14.16.15:781][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.16.15:809][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.05.01-14.16.15:810][979]LogTemp:Display: Added material ShaderMap 0x0000006A25E2C800 with Material 0x0000006A40EB9000 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.15:813][979]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_2, GameThreadShaderMap 0x0000006A25E2C800
+[2017.05.01-14.16.16:661][ 19]LogTemp:Display: Finished compile of shader map 0x0000006A4090A780
+[2017.05.01-14.16.16:661][ 19]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A4090A780, marking material apple as finished
+[2017.05.01-14.16.16:661][ 19]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.16.16:679][ 20]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.01-14.16.16:679][ 20]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.01-14.16.16:679][ 20]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.01-14.16.16:679][ 20]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.01-14.16.16:729][ 23]LogTemp:Display: Finished compile of shader map 0x0000006A25E2C800
+[2017.05.01-14.16.16:729][ 23]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_2 complete, GameThreadShaderMap 0x0000006A25E2C800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_2 as finished
+[2017.05.01-14.16.16:729][ 23]LogTemp:Display: Marking material as finished 0x0000006A40EB9000
+[2017.05.01-14.16.21:573][264]LogMaterialEditor: Saving and Compiling material apple
+[2017.05.01-14.16.22:267][264]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.22:268][264]LogTemp:Display: Added material ShaderMap 0x0000006A3C127900 with Material 0x0000006A16D0DF80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.22:292][264]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A3C127900
+[2017.05.01-14.16.22:292][264]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.16.22:323][264]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.22:323][264]LogTemp:Display: Added material ShaderMap 0x0000006A406F0800 with Material 0x00000069CEC97E80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.22:377][264]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A406F0800
+[2017.05.01-14.16.22:380][264]LogMaterial: Missing cached shader map for material apple, compiling. 
+[2017.05.01-14.16.22:381][264]LogTemp:Display: Added material ShaderMap 0x0000006A40A48100 with Material 0x00000069CEC97E80 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.22:411][264]LogTemp:Display: Kicking off shader compilation for apple, GameThreadShaderMap 0x0000006A40A48100
+[2017.05.01-14.16.22:413][264]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.01-14.16.22:448][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy apple, compiling. 
+[2017.05.01-14.16.22:449][264]LogTemp:Display: Added material ShaderMap 0x00000069A34F9980 with Material 0x0000006A40BAFA00 to ShaderMapsBeingCompiled
+[2017.05.01-14.16.23:009][264]LogTemp:Display: Finished compile of shader map 0x00000069A34F9980
+[2017.05.01-14.16.23:009][264]LogTemp:Display: Shader map FDebugViewModeMaterialProxy apple complete, GameThreadShaderMap 0x00000069A34F9980, marking material FDebugViewModeMaterialProxy apple as finished
+[2017.05.01-14.16.23:009][264]LogTemp:Display: Marking material as finished 0x0000006A40BAFA00
+[2017.05.01-14.16.23:013][264]TextureStreamingBuild:Display: Compiling optional shaders took 0.572 seconds.
+[2017.05.01-14.16.24:744][264]LogTemp:Display: Finished compile of shader map 0x0000006A40A48100
+[2017.05.01-14.16.24:744][264]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A40A48100, marking material apple as finished
+[2017.05.01-14.16.24:744][264]LogTemp:Display: Marking material as finished 0x00000069CEC97E80
+[2017.05.01-14.16.24:751][264]LogTemp:Display: Finished compile of shader map 0x0000006A3C127900
+[2017.05.01-14.16.24:751][264]LogTemp:Display: Shader map apple complete, GameThreadShaderMap 0x0000006A3C127900, marking material apple as finished
+[2017.05.01-14.16.24:751][264]LogTemp:Display: Marking material as finished 0x0000006A16D0DF80
+[2017.05.01-14.16.24:818][264]LogSavePackage: Save=15.19ms
+[2017.05.01-14.16.24:818][264]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/appleC795740941E4A20A9347CFB2D477D514.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScroller/Textures/apple.uasset'
+[2017.05.01-14.16.24:821][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScroller/Textures/apple.uasset
+[2017.05.01-14.16.40:227][872]BlueprintLog: New page: Compile fruit_blueprint
+[2017.05.01-14.16.41:185][902]LogSavePackage: Save=32.74ms
+[2017.05.01-14.16.41:185][902]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/fruit_blueprintA9310D8B481D34EB5920C988E0761C42.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/fruit_blueprint.uasset'
+[2017.05.01-14.16.41:189][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/fruit_blueprint.uasset
+[2017.05.01-14.16.49:287][303]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.16.49:317][303]LogBlueprint:Error: [Compiler character_2] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.01-14.16.49:317][303]LogBlueprint:Error: [Compiler character_2] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.01-14.16.50:074][303]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.01-14.16.50:074][303]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.01-14.16.50:075][303]LogBlueprint:Warning: [Compiler character_2] Warning [1243.59] Compile of character_2 failed. 2 Fatal Issue(s) 0 Warning(s) [in 787 ms] (/Game/2DSideScrollerBP/Blueprints/character_2.character_2)
+[2017.05.01-14.17.34:314][ 19]LogEditorViewport: Clicking on Actor (LMB): tree_Blueprint_C (Cube_Blueprint)
+[2017.05.01-14.18.00:758][589]BlueprintLog: New page: Compile character_2
+[2017.05.01-14.18.02:699][681]LogSavePackage: Save=55.09ms
+[2017.05.01-14.18.02:699][681]LogSavePackage: Moving '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Saved/character_20649518E47742A1AA682C5B7CF183FD7.tmp' to '../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset'
+[2017.05.01-14.18.02:701][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bensond0925/Documents/Unreal Projects/ChildrenOfTheStars/Content/2DSideScrollerBP/Blueprints/character_2.uasset
+[2017.05.01-14.18.13:336][318]LogEditorViewport: Clicking on Actor (LMB): roots_Blueprint_C (roots_Blueprint)
+[2017.05.01-14.18.48:327][320]BlueprintLog: New page: Compile roots_Blueprint
+[2017.05.01-14.18.48:330][320]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.roots_Blueprint_2.StaticMeshComponent0 is already used by StaticMeshComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.REINST_roots_Blueprint_C_0.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.01-14.18.48:810][322]LogWindows: Windows GetLastError: The operation completed successfully. (0)
